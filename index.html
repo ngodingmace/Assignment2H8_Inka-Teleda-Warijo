@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Area Navbar     -->
+<div id="navbar">
+      <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">INVENTORY</a></li>
+    </ul>
+</div>
+<!-- Area section profil -->
+<div id="profil-page">
+  <div class="container">
+    <div class="card">
+        <div class="card-image">
+            <img src="img/03.png" class="img-thumbnail" alt="gambar Profil">
+        </div>
+        <div class="card-description">
+          <div class="bagian1">
+            <div class="name">
+               <h3 id="name">Nama Anda</h3>
+            </div>
+            <div class="role">
+              <p id="role">Role</p>
+            </div>
+            <br>
+            <div class="jumbotron">
+                <button id="edit-btn" type="button" class="btn btn-primary">Edit</button>
+                <button id="resume-btn" type="button" class="btn btn-outline-success">Resume</button>
+            </div>
+          </div>
+              <div class="d-flex">
+                <div class="vr"></div>
+              </div>
+                  <div class="card-description1">
+                        <tr>
+                              <td class="availbility"><b>Availability</b></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;
+                              <span id="availbility">Full Time</span>
+                        </tr>
+                        <br>
+                        <tr>
+                              <td class="usia"><b>Usia</b><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <span id="usia">18</span>
+                        </tr>
+                        <br>
+                        <tr>
+                              <td class="lokasi"><b>Lokasi</b><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <span id="lokasi">Bandung</span>
+                        </tr>
+                        <br>
+                        <tr>
+                              <td class="penggalaman"><b>Penggalaman</b><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <span id="penggalaman">2</span>
+                        </tr>
+                        <br>
+                        <tr>
+                              <td class="email"><b>Email</b><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <span id="email">inka@gmail.com</span>
+                        </tr>
+                </div>
+        </div>
+  </div>
+</div>
+</div>
+<!-- memberikan spasi antara profil dan form -->
+  <br> 
+<!-- Area Section form  -->
+<div id="form-page">
+      <div class="main">
+            <form>
+              <div class="form-item">
+                <label for="nama">Nama</label>
+                <input type="text" name="name" id="input-name" placeholder="Silahkan Masukkan Nama Anda">
+              </div>
+              <div class="form-item">
+                <label for="role">Role</label>
+                <input type="text" name="role" id="input-role" placeholder="Silahkan Masukkan Role Anda">
+              </div>
+              <div class="form-item">
+                <label for="availbility">Availability</label>
+                <input type="text" name="availbility" id="input-availbility" placeholder="Silahkan Masukkan Ketersedian Anda ">
+              </div>
+              <div class="form-item">
+                <label for="usia">Usia</label>
+                <input type="text" name="Usia" id="input-usia" placeholder="Silahkan Masukkan Usia Anda">
+              </div>
+              <div class="form-item">
+                <label for="lokasi">Lokasi</label>
+                <input type="text" name="lokasi" id="input-lokasi" placeholder="Silahkan Masukkan lokasi Anda">
+              </div>
+              <div class="form-item">
+                <label for="years">Years Experience</label>
+                <input type="text" name="years" id="input-penggalaman" placeholder="Silahkan Masukkan Tahun Penggalaman Anda" >
+              </div>
+              <div class="form-item">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="input-email" placeholder="Silahkan Masukkan Email Anda">
+              </div>
+                <button id="submit-btn" type="button">SUBMIT</button>
+            </form>
+    </div>
+</div>
+    
+
+<!-- Area script -->
+    <script src="script.js">
+    </script>
+</body>
+</html>
